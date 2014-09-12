@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Tanks</title>
+
+  <link rel="stylesheet" type="text/css" href="canvas.css"/>
+
+  <!-- External dependencies -->
+  <!--<script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="jquery.hotkeys.js"></script>-->
+  <script type="text/javascript" src="transform.js"></script>
+  <script type="text/javascript" src="collision.js"></script>
+
+  <!-- Class files -->
+  <script type="text/javascript" src="particle.js"></script>
+  <script type="text/javascript" src="tank.js"></script>
+  <script type="text/javascript" src="tank_movement.js"></script>
+  <script type="text/javascript" src="tank_shoot.js"></script>
+  <script type="text/javascript" src="tank_mouse.js"></script>
+
+  <!-- Main renderers -->
+  <script type="text/javascript" src="update.js"></script>
+  <script type="text/javascript" src="init.js"></script>
+  
+</head>
+
+<body>
+  <div id="gameDiv">
+    <canvas id='mCanvas' name='tankA' width='3840' height='2160'></canvas>
+    <canvas id='tCanvas' width='3840' height='2160'></canvas>
+  </div>
+
+</body>
+</html>
