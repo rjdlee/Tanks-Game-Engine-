@@ -1,4 +1,4 @@
-Tanks-Game-Engine-
+Tanks-Game-Engine
 ==================
 
 HTML5 Canvas Rendering, but the engine needs to be rewritten due to the neccessity of further modularity.
